@@ -4,6 +4,10 @@ Multiplatform Calendar
 Multiplatform calendar with online events, implemented online version with HTML, mobile version with Android and desktop with Python. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and uses an online DB (CouchDB). 
 
 
+
+[HTML](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5)
+
+
 ## Functionalities
 
 - View a calendar with different events stored in each day 
@@ -33,6 +37,12 @@ All of them were implemented using CouchDB.
 	- Python
 	- Glade
 
+
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Python/mocks/no_menus.png">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5/EXAMPLE.PNG">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Android/wireframe/Calendarh8.png">
+</p>
 
 
 ## Contact
