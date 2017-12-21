@@ -16,7 +16,7 @@ Python desktop calendar with online events. This was a project for the Person Ma
 - Query events by course
 
 
-<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Python/mocks/no_menus.png" width="200">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Python/mocks/no_menus.png">
 
 
 ## Technology and dependencies
