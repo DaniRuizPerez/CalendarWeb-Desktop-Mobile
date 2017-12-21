@@ -6,7 +6,7 @@ HTML Calendar
 </p>
 
 
-HTML calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in HTML, CSS and JavaScript with an online DB (couchdb). Implemented with W3C WAI-ARIA Tags and other accesibility techniques.
+HTML calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in HTML, CSS and JavaScript with an online DB (CouchDB). Implemented with W3C WAI-ARIA Tags and other accesibility techniques.
 
 
 ## Functionalities

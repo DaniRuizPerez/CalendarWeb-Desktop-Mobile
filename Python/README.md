@@ -6,7 +6,7 @@ Desktop Calendar
 </p>
 
 
-Python desktop calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Python with an online DB (couchdb). 
+Python desktop calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Python with an online DB (CouchDB). 
 
 
 ## Functionalities

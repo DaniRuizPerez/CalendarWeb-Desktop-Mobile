@@ -1,6 +1,12 @@
 Android Calendar
 ============
 
+
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Android/wireframe/Calendarh8.png">
+</p>
+
+	
 Android calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Java with an online DB (CouchDB). 
 
 
