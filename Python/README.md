@@ -1,6 +1,11 @@
 Desktop Calendar
 ============
 
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Python/mocks/no_menus.png">
+</p>
+
+
 Python desktop calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Python with an online DB (couchdb). 
 
 
@@ -16,7 +21,6 @@ Python desktop calendar with online events. This was a project for the Person Ma
 - Query events by course
 
 
-<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Python/mocks/no_menus.png">
 
 
 ## Technology and dependencies
