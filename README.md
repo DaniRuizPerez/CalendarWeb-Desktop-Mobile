@@ -1,7 +1,7 @@
 Multiplatform Calendar
 ============
 
-Multiplatform calendar with online events, implemented [online](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5) version with HTML, [mobile](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Android) version with Android and [desktop](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5) with Python. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and uses an online DB (CouchDB). 
+Multiplatform calendar with online events, implemented [online](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5) version with HTML, [mobile](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/Android) version with Android and [desktop](https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5) with Python. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and uses an online DB (CouchDB).  
 
 ## Functionalities
 
