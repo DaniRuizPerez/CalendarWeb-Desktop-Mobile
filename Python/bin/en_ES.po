@@ -1,0 +1,146 @@
+# English translations for h package.
+# Copyright (C) 2013 THE h'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the h package.
+# Dani <dani@dani-virtualbox>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: h 8f\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-10 22:48+0200\n"
+"PO-Revision-Date: 2013-10-10 22:43+0200\n"
+"Last-Translator: Dani <dani@dani-virtualbox>\n"
+"Language-Team: English\n"
+"Language: en_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: controlador.py:179
+msgid "Bienvenido "
+msgstr "Welcome "
+
+#: controlador.py:254
+msgid "Haga click sobre la asignatura de la que quiere ver sus eventos"
+msgstr "Click on the subject whose events you want to see"
+
+#: controlador.py:320 controlador.py:334
+msgid ""
+"Debe introducir las etiquetas como en el siguiente ejemplo: ipm, so, "
+"deathline... y por lo menos una tiene que coincidir con una asignatura de "
+"las que impartes"
+msgstr ""
+"You must introduce tags like in the following example: ipm, so, deathline... "
+"and at least one of them has to be a subject that you teach"
+
+#: controlador.py:341 controlador.py:344
+msgid "Formato de fecha incorrecto"
+msgstr "Incorrect date format"
+
+#: controlador.py:434
+msgid "Hay "
+msgstr "There are "
+
+#: controlador.py:435
+msgid " nuevos eventos en los proximos dias:"
+msgstr " New events in the following days:"
+
+#: DAO.py:40
+msgid "No se ha podido acceder a la base de datos"
+msgstr "Data base unreachable"
+
+#: DAO.py:40
+msgid "Problema interno en BD"
+msgstr "Internal problem with de data base"
+
+#: DAO.py:40
+msgid "Usuario no existe en BD"
+msgstr "User dont exist in the data base"
+
+#~ msgid "Escoja la opcion a realizar sobre el evento seleccionado"
+#~ msgstr "Choose the option to do in the selected event"
+
+#~ msgid "Editar Evento"
+#~ msgstr "Edit Event"
+
+#~ msgid "Borrar Evento"
+#~ msgstr "Delete Event"
+
+#~ msgid "LIsto"
+#~ msgstr "Done"
+
+#~ msgid "Cancelar"
+#~ msgstr "Cancel"
+
+#~ msgid "Rellena los campos para el nuevo evento:"
+#~ msgstr "Fill in the blanks for the new event:"
+
+#~ msgid "Descripción                                       "
+#~ msgstr "Description                                                          "
+
+#~ msgid "Etiquetas(Etiqueta1,Etiqueta2)"
+#~ msgstr "Tags(Tag1,Tag2)"
+
+#~ msgid "Rellena los datos del evento modificado:"
+#~ msgstr "Fill in the blanks of the modified event:"
+
+#~ msgid "Fecha (aaaa-mm-dd)                         "
+#~ msgstr "Date (yyyy-mm-dd)                         "
+
+#~ msgid "Asignatura"
+#~ msgstr "Subject"
+
+#~ msgid "Operación realizada con Éxito"
+#~ msgstr "Success"
+
+#~ msgid "¿Estas seguro?"
+#~ msgstr "¿Are you sure?"
+
+#~ msgid "Yes"
+#~ msgstr "Yes"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "_Archivo"
+#~ msgstr "File"
+
+#~ msgid "Ver"
+#~ msgstr "View"
+
+#~ msgid "Mostrar solo determinada asignatura"
+#~ msgstr "Only show targe subject"
+
+#~ msgid "Ver como alumno"
+#~ msgstr "See as student"
+
+#~ msgid "Ver como profesor"
+#~ msgstr "See as teacher"
+
+#~ msgid "Ay_uda"
+#~ msgstr "Help"
+
+#~ msgid "Bienvenido!!"
+#~ msgstr "Bienvenido!!"
+
+#~ msgid "Autenticarse"
+#~ msgstr "Login"
+
+#~ msgid "Cerrar sesion"
+#~ msgstr "Logout"
+
+#~ msgid "Fecha"
+#~ msgstr "Date"
+
+#~ msgid "Tipo"
+#~ msgstr "Type"
+
+#~ msgid "Etiquetas"
+#~ msgstr "Tags"
+
+#~ msgid "Creador"
+#~ msgstr "Creator"
+
+#~ msgid "Cargando..."
+#~ msgstr "Loading..."

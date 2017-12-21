@@ -1,0 +1,6 @@
+* Diseñaremos una página que nos sirva de vista para una aplicación que muestre
+  el calendario de un cuatrimestre.
+  Como servicio colateral, se mostrarán las noticias del servidor de la Universidad.
+* Crearemos un pequeño servidor (cgi) para acceder a los distintos calendarios.
+* Dividiremos la app para desplegarla en dos partes: cliente (js) y servidor (cgi). 
+

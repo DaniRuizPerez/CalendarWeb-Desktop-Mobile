@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendario IHM</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="logoutMenu">Cerrar Sesión</string>
+    <string name="previousMonth">Anterior</string>
+    <string name="nextMonth">"Siguiente"</string>
+    <string name="about">Calendario \n\n
+        V 1.3\n\n
+        Historia 1\n\n
+        Ismael Barbeito Vázquez\n
+        Daniel Ruiz Pérez\n</string>
+    <string name="loading">Cargando...</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="day">Día:  </string>
+    <string name="Creator">Creador:  </string>
+    <string name="Type">Tipo:  </string>
+    <string name="Tags">Etiquetas:  </string>
+    <string name="events">eventos </string>
+    <string name="week">SEMANA </string>
+    <string name="January">ENERO </string>
+    <string name="February">FEBRERO </string>
+    <string name="March">MARZO </string>
+    <string name="April">ABRIL </string>
+    <string name="May">MAYO </string>
+    <string name="June">JUNIO </string>
+    <string name="July">JULIO </string>
+    <string name="August">AGOSTO </string>
+    <string name="September">SEPTIEMBRE </string>
+    <string name="October">OCTUBRE </string>
+    <string name="November">NOVIEMBRE </string>
+    <string name="December">DICIEMBRE </string>
+    <string name="title_activity_login">CalendarIHM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Error">"Error al establecer conexión con el servidor!" </string>
+    
+    <string name="entryUser">Usuario</string>
+    <string name="entryPassword">Contraseña</string>
+    <string name="login">Identificarse</string>
+    <string name="welcome">Bienvenido </string>
+    <string name="chooseSubjectsMenu">Mostrar determinadas asignaturas </string>
+  	<string name="Guest">Invitado</string>
+  	<string name="Edit">Editar</string>
+    <string name="Delete">Eliminar</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
+    <string name="Sure">¿Seguro?</string>
+    <string name="Modify">Modificar evento</string>
+    <string name="Add">Añadir evento</string>
+    <string name="Description">Descripción</string>
+    <string name="Create">CREAR EVENTO</string>
+    <string name="invalidTags">No has introducido ningún tag válido</string>
+    <string name="succesOnOperation">Operación completada con éxito</string> 
+        <string name="Tags_window">Etiquetas (et1, et2, et3):</string>
+    
+</resources>

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-10 22:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: controlador.py:179
+msgid "Bienvenido "
+msgstr ""
+
+#: controlador.py:254
+msgid "Haga click sobre la asignatura de la que quiere ver sus eventos"
+msgstr ""
+
+#: controlador.py:320 controlador.py:334
+msgid ""
+"Debe introducir las etiquetas como en el siguiente ejemplo: ipm, so, "
+"deathline... y por lo menos una tiene que coincidir con una asignatura de "
+"las que impartes"
+msgstr ""
+
+#: controlador.py:341 controlador.py:344
+msgid "Formato de fecha incorrecto"
+msgstr ""
+
+#: controlador.py:434
+msgid "Hay "
+msgstr ""
+
+#: controlador.py:435
+msgid " nuevos eventos en los proximos dias:"
+msgstr ""
+
+#: DAO.py:40
+msgid "No se ha podido acceder a la base de datos"
+msgstr ""
+
+#: DAO.py:40
+msgid "Problema interno en BD"
+msgstr ""
+
+#: DAO.py:40
+msgid "Usuario no existe en BD"
+msgstr ""

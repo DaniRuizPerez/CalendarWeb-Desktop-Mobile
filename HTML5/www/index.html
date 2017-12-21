@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>CALENDARIO IPM</title>
+		<link rel="icon" type="image/png" href="schedule.png" />
+		<link href="css/datepicker.css" rel="stylesheet" type="text/css" />
+		
+		<link href= "css/movil.css" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 1000px)" />
+		<link href= "css/escritorio.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" />
+
+		<script type="text/javascript" src = "/js/jquery.min.js"></script>
+		<script type="text/javascript" src = "/js/datepicker.js"></script>
+		<script type="text/javascript" src = "/js/date-utils.js"></script>
+		<script type="text/javascript" src = "/js/main.js"></script>
+		<script type="text/javascript" src = "/js/jquery.couch.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1> CALENDARIO IPM</h1>
+		</header>
+
+		<div id="wrapper">
+			<input  tabindex="0" name='search-input' id='search-input' size="14" />	
+			<h2 class ="clickable-tab-index" tabindex="0" id='search'>Buscar</h2>
+
+			<table class="calendar-weeks">
+				<thead>
+					<tr id = "calendar-menu">
+						<th scope="col" class='button clickable-tab-index' id="anterior" tabindex="0" >Ant</th>
+						<th scope="col"></th>
+						<th scope="col" id = "mes"></th>
+						<th scope="col"></th>
+						<th scope="col" id = "ano"></th>
+						<th scope="col"></th>
+						<th scope="col"><a class='button clickable-tab-index' id="siguiente" tabindex="0" >Sig</a></th>
+					</tr>
+					<tr id = "weeks-name">
+						<th scope="col">Lun</th>
+						<th scope="col">Mar</th>
+						<th scope="col">Mié</th>
+						<th scope="col">Jue</th>
+						<th scope="col">Vie</th>
+						<th scope="col">Sáb</th>
+						<th scope="col">Dom</th>
+					</tr>
+				</thead>
+
+				<tbody id="tbody">
+				</tbody>
+
+			</table>
+			<aside id = "aside">
+				<div id = 'events-title-div'></div>
+				<div id = 'events-list'></div>
+			</aside>
+
+		</div>
+
+		<footer id = "footer">
+			<p>Daniel Ruiz & Ismael Barbeito</p>
+		</footer>
+
+
+
+		<aside id='left-buttons'>
+			<aside id = "subjects">	</aside>
+			<h2 class = 'button-e clickable-tab-index' id='add'  tabindex="0">Añadir</h2>
+			<h2 class = 'button-e clickable-tab-index' id='delete'  tabindex="0">Borrar</h2>
+			<h2 class = 'button-e clickable-tab-index' id='modify'  tabindex="0">Modificar</h2>
+			<h2 class = 'button-e clickable-tab-index' id='check' tabindex="0">Aceptar</h2>
+		</aside>
+
+
+
+
+		<h2 class = 'button-e clickable-tab-index' id='login' tabindex="1" >Login</h2>
+		<h2 class = 'button-e clickable-tab-index' id='logout' tabindex="1">Logout</h2>
+		<h2 class = 'button-e clickable-tab-index' id='login-values' tabindex="2">Login</h2>
+
+		<h3 id='welcome'>Bienvenido</h3>
+
+		<aside id="enter-login"> 
+			<h2>Usuario: <input class ='clickable-tab-index' name='username' id='username' size="14" tabindex="1"/></h2>	
+		</aside> 
+
+	
+
+		<div id ="add-aside">	
+			<h3 class= 'title-window'>Rellene los datos</h3>
+			<h3> Fecha: <input type="text" id="datepicker" class='text-entry'/></h3>	 
+			<h3> Tags: <input type="text" id="tags-entry" class='text-entry'  tabindex="0"/></h3>
+			<h3> Descripcion: <input type="text" id="description-entry" class='text-entry'  tabindex="0"/></h3>
+			<p id='aceptar' class = 'clickable-tab-index' tabindex="0">Aceptar</p>
+			<p id='cancelar' class = 'clickable-tab-index' tabindex="0">Cancelar</p>
+		</div>
+
+		<div id ="mod-aside">	
+			<h3 class= 'title-window'>Rellene los datos</h3>
+			<h3> Nombre(Evento1): <input type="text" id="name-event-m" class='text-entry'/></h3>	 
+			<h3> Fecha: <input type="text" id="datepicker-m" class='text-entry'/></h3>	 
+			<h3> Tags: <input type="text" id="tags-entry-m" class='text-entry'  tabindex="0"/></h3>
+			<h3> Descripcion: <input type="text" id="description-entry-m" class='text-entry'  tabindex="0"/></h3>
+			<p id='aceptar-m' class = 'clickable-tab-index' tabindex="0">Aceptar</p>
+			<p id='cancelar-m' class = 'clickable-tab-index' tabindex="0">Cancelar</p>
+		</div>
+
+
+
+		<div id ="delete-aside">	
+			<h3> Titulo: (del estilo Evento5) <input type="text" id="delete-entry" class='text-entry'  tabindex="0"/></h3>
+			<p class = 'clickable-tab-index' id='yes' tabindex="0">Acep</p>
+			<p class = 'clickable-tab-index' id='no' tabindex="0">Canc</p>
+		</div>
+
+		<div id='overlay'></div>
+
+	</body>
+</html>

@@ -1,0 +1,361 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image:url('background.png');
+}
+
+body > header {
+    width: 100%;
+    height: 0;
+    font-size: 140%;
+    color: black;
+    text-align: center;
+    text-shadow: 20px 20px 15px #8A3700;
+
+}
+
+section#main{
+    margin-top: 96px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 800px;   
+
+}
+
+table.calendar-weeks {
+    font-size: 100%;
+    background-color:  #FFC165;
+    width:800px;
+    text-align: right;    
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    table-layout: fixed;
+    box-shadow: 20px 20px 20px #8A3700;
+    border-radius: 1%;
+    float:left;
+}
+ 
+#calendar-menu{
+    background-color: #FFC165;
+    text-align: center;
+    font-size: 190%;
+}
+
+/* Estilo de las cabeceras del calendario */
+table.calendar-weeks th {
+    color: black;
+    font-weight: normal;
+    padding: 0;
+}   
+
+/* Estilo para las casillas del calendario */
+table.calendar-weeks tbody tr {
+    font-size: 200%;
+    height: 80px;    
+    line-height: 2.5;
+    text-align: center;    border-left: 2px solid black;
+
+}
+
+table.calendar-weeks tbody td {
+
+    background-color: #FAFAFF;
+    border-bottom: 1px solid #018289;    
+    border-radius: 5%;
+    border: 1px solid #018289;
+    vertical-align: top;
+    padding: 0;
+}
+
+
+#weeks-name{
+	text-align: center;
+	font-size: 130%;
+    background-color: #FFC165;
+}
+
+
+.button{
+    font-size: 130%;
+    display: inline-block;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.3;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #FFC165;
+    cursor: pointer;
+
+}
+
+.gray{
+	background-color: #DDDDDD !important;
+}
+
+.prev{
+        cursor: pointer;
+}
+
+.next{
+        cursor: pointer;
+}
+
+#footer {
+    font-size: 130%;
+    color:black;
+    position:fixed;
+    bottom: 0px;
+    right: 6px;
+    text-shadow: 15px 10px 10px #8A3700;
+}
+
+
+#aside{
+    display: block;
+    border-radius: 3%;
+    overflow:auto;
+    width:400px;
+    float: right;
+    height: 577px;
+}
+
+.has-events{
+    background-color: #FFE7C5!important;
+    cursor: pointer;
+}
+
+.title-event{
+    font-size: 140%;
+    text-align: center;
+    color: #5B5755;
+    cursor: pointer;
+}
+
+
+h2{
+    margin: 0;
+    font-size: 200%;
+    color: black;
+    text-shadow: 20px 20px 15px #8A3700;
+}
+
+#events-list{
+    width:300px;
+}
+
+.event{
+    border: 3px solid black;
+    border-radius:3%;
+    font-size: 150%;
+    margin:30px;
+    margin-right: 0;
+    box-shadow: 20px 20px 25px #8A3700;
+    padding-left: 10px;
+}
+
+
+
+#enter-login{
+    position:absolute;
+    left: 150px;
+    top: 20px;
+    visibility:hidden;
+}
+
+.button-e{    
+    float: left;
+    position:absolute;
+    top: 10px;
+    left: 30px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius:10%;  
+}
+
+#logout{
+    visibility:hidden;
+}
+
+#login-values{
+    visibility: hidden;
+}
+
+
+#welcome{
+    bottom: 0px;
+    left: 30px;
+    visibility: hidden;
+    font-size: 130%;
+    color:black;
+    position:fixed;
+    text-shadow: 15px 10px 10px #8A3700;
+}
+
+
+#subjects{
+    position:absolute;
+    font-size: 180%;
+    top: 75px;
+    left: 30px;
+}
+
+#wrapper{
+    width: 1220px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 90px;
+    position: relative;
+}
+
+#add{
+    visibility: hidden;
+    top:120px;
+}
+
+#add-aside{
+    background-color: #DDDDDD;
+    position:absolute; 
+    display: none;
+    border-radius: 3%;
+    border: 3px solid black;
+    width:400px;
+    height: 320px;
+    margin-left: -143px;
+    left: 50%;
+    top:200px;
+    right: 50%;
+    z-index: 10;
+    font-size: 170%;   
+    padding: 40px;
+}
+
+.text-entry{
+    float:right;
+    padding: 6px;
+    margin: 6px;
+}
+
+#overlay{
+    z-index: 5;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.title-window{
+    margin: 0;
+    padding: 0;
+}
+
+#aceptar{
+    border: 3px solid black;
+    cursor: pointer;
+    position:absolute;
+    text-align: center;
+    border-radius:10%;  
+    left:100px;
+    bottom:5px;
+    padding: 5px;
+}
+
+#cancelar{
+   border: 3px solid black;
+    cursor: pointer;
+    position:absolute;
+    text-align: center;
+    border-radius:10%; 
+    right: 100px;
+    bottom:5px;
+    padding: 5px;
+}
+
+#delete{
+    top: 200px;
+}
+
+#modify{
+    top: 270px;
+}
+
+#delete-aside{
+    background-color: #DDDDDD;
+    position:absolute; 
+    display: none;
+    border-radius: 3%;
+    border: 3px solid black;
+    width:200px;
+    height: 100px;
+    margin-left: -143px;
+    left: 50%;
+    top:200px;
+    text-align: center;
+    right: 50%;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+
+
+#yes{
+    font-size: 150%;
+    border: 3px solid black;
+    cursor: pointer;
+    position:absolute;
+    text-align: center;
+    border-radius:10%;  
+    left:50px;
+    bottom:5px;
+    padding: 5px;
+}
+
+#no{
+        font-size: 150%;
+
+    border: 3px solid black;
+    cursor: pointer;
+    position:absolute;
+    text-align: center;
+    border-radius:10%; 
+    right: 50px;
+    bottom:5px;
+    padding: 5px;
+}
+
+
+#left-buttons{
+    float:left;
+}
+
+#check{
+    top:340px;
+}
+
+#search{
+    float:right;
+    border: 3px solid black;
+    cursor: pointer;
+    border-radius:10%; 
+    padding: 0px; 
+}
+
+#search-input{
+    float:right;
+    padding: 8px;
+}
+
+
+:focus {
+    background-color: rgba(0,0,0,0.3);
+}

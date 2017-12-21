@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity = "center">
+
+    <Button
+        android:id="@+id/guestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGestClicked"
+        android:text="@string/Guest" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_weight="10"
+            android:orientation="vertical" >
+                 
+	    <EditText
+	        android:id="@+id/editUser"
+	        android:layout_width="match_parent"
+     	   	android:layout_height="50sp"
+        	android:hint="@string/entryUser">
+	        <requestFocus />
+	    </EditText>
+
+	    <EditText
+	        android:id="@+id/editPassword"
+	        android:layout_width="match_parent"
+     	   	android:layout_height="50sp"
+	        android:inputType="textPassword" 
+        	android:hint="@string/entryPassword" />
+            
+            
+    	</LinearLayout>
+         
+	    <Button
+	        android:id="@+id/buttonLogin"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50sp"
+	        android:onClick="onLoginClicked"
+	        android:text="@string/login" />
+             
+    </LinearLayout>
+
+    
+	    
+	     <ProgressBar
+        android:id="@+id/spinnerLogin"
+		style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+    
+        <TextView
+		android:id="@+id/loading"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"    
+        android:textSize="40sp"
+        android:text="@string/loading" 
+		android:visibility="invisible"/>
+        
+        
+        
+</LinearLayout>
+
+
+

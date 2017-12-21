@@ -1,0 +1,74 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MonthViewActivity" >
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="@string/welcome"
+        android:textSize="18sp" />
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/previousMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previousMonth" 
+            android:onClick="previousMonth"/>
+
+        <TextView
+            android:id="@+id/mes"
+            android:gravity="center"
+            android:layout_weight="100"
+      		android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/nextMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nextMonth" 
+            android:onClick="nextMonth"/>
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </ExpandableListView>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    
+        <TextView
+		android:id="@+id/loading"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"    
+        android:textSize="40sp"
+        android:text="@string/loading" />
+
+
+</LinearLayout>
