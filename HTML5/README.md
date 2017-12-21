@@ -1,6 +1,11 @@
 HTML Calendar
 ============
 
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/CalendarWeb-Desktop-Mobile/blob/master/HTML5/EXAMPLE.PNG">
+</p>
+
+
 HTML calendar with online events. This was a project for the Person Machine Interfaces course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in HTML, CSS and JavaScript with an online DB (couchdb). Implemented with W3C WAI-ARIA Tags and other accesibility techniques.
 
 
